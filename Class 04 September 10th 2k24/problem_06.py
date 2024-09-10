@@ -1,6 +1,6 @@
 string=input()
 
-# checking a frequency
+# checking frequency of character "a"
 count=0
 for char in string:
     if char=="a":
