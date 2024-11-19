@@ -12,6 +12,7 @@ dancers_not_singers = dancers.difference(singers)
 
 singers_not_dancers = singers.difference(dancers)
 
+
 dancers_singers_exclusive = dancers.symmetric_difference(singers)
 
 print("\nAll artists (either singers or dancers or both):", all_artists)
